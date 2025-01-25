@@ -26,7 +26,7 @@ const AddNewProductForm = ({
 
   useEffect(() => {
     const setMaxIdFunction = () => {
-      const arrId = [0];
+      const arrId = [1];
       if (!productsData[0]) return 0;
       productsData.forEach((category) => {
         if (!category.items) return;
